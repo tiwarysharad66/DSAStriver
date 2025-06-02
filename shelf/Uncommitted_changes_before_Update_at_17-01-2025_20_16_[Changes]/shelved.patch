@@ -1,0 +1,18 @@
+Index: src/Stack_Queue.java
+===================================================================
+diff --git a/src/Stack_Queue.java b/src/Stack_Queue.java
+deleted file mode 100644
+--- a/src/Stack_Queue.java	(revision 2b065c77e669e0b7b71f7625454a77b7ac31974a)
++++ /dev/null	(revision 2b065c77e669e0b7b71f7625454a77b7ac31974a)
+@@ -1,2 +0,0 @@
+-public class Stack_Queue {
+-}
+Index: src/geeks_geeks.java
+===================================================================
+diff --git a/src/geeks_geeks.java b/src/geeks_geeks.java
+deleted file mode 100644
+--- a/src/geeks_geeks.java	(revision 2b065c77e669e0b7b71f7625454a77b7ac31974a)
++++ /dev/null	(revision 2b065c77e669e0b7b71f7625454a77b7ac31974a)
+@@ -1,2 +0,0 @@
+-public class geeks_geeks {
+-}

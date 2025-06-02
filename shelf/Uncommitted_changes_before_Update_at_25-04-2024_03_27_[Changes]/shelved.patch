@@ -1,0 +1,921 @@
+Index: src/slidingwindow/Leetcode930.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/slidingwindow/Leetcode930.java b/src/slidingwindow/Leetcode930.java
+new file mode 100644
+--- /dev/null	(date 1713380689708)
++++ b/src/slidingwindow/Leetcode930.java	(date 1713380689708)
+@@ -0,0 +1,44 @@
++package slidingwindow;
++
++import java.util.Scanner;
++
++public class Leetcode930 {
++    public static void main(String[] args) {
++        Scanner s = new Scanner(System.in);
++        int size = s.nextInt();
++        int goal = s.nextInt();
++        int[] arr = new int[size];
++        for(int i =0;i<size;i++){
++            arr[i] = s.nextInt();
++        }
++        System.out.println(numSubarraysWithSum(arr,goal));
++    }
++    public static int numSubarraysWithSum(int[] nums, int goal) {
++        int n = nums.length;
++ int[] prefix = new int[n];
++ int count =0;
++ prefix[0]= nums[0];
++ for(int i =1;i<n;i++){
++     prefix[i] = prefix[i-1]+nums[i];
++ }
++ int sum =0;
++ for(int i=0;i<n;i++){
++     sum =0;
++     for(int j=i;j<n;j++){
++         if(i==0){
++             sum = prefix[j];
++             if(sum==goal){
++                 count++;
++             }
++         }
++         else{
++             sum = prefix[j]-prefix[i-1];
++             if(sum==goal){
++                 count++;
++             }
++         }
++     }
++ }
++ return count;
++    }
++}
+Index: src/slidingwindow/Leetcode1248.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/slidingwindow/Leetcode1248.java b/src/slidingwindow/Leetcode1248.java
+new file mode 100644
+--- /dev/null	(date 1713377226659)
++++ b/src/slidingwindow/Leetcode1248.java	(date 1713377226659)
+@@ -0,0 +1,40 @@
++package slidingwindow;
++import java.util.Scanner;
++public class Leetcode1248 {
++    public static void main(String[] args) {
++        Scanner s = new Scanner(System.in);
++        int size = s.nextInt();
++        int k = s.nextInt();
++        int[] arr = new int[size];
++        for(int i =0;i<size;i++){
++            arr[i] = s.nextInt();
++        }
++        System.out.println(numberOfSubarrays(arr,k));
++    }
++    public static int numberOfSubarrays(int[] nums, int k) {
++         int size = nums.length;
++         int i =0;
++         int j = 0;
++         int count = 0;
++         int count2 = 0;
++         while(j<size){
++             if(nums[j]%2!=0){
++                 count++;
++             }
++             if(j-i+1<k){
++                 j++;
++             }
++             else if(j-i+1==k){
++                 if(count==k){
++                     count2++;
++                 }
++                 if(nums[i]%2!=0){
++                     count--;
++                 }
++                 i++;
++                 j++;
++             }
++         }
++         return count2;
++    }
++}
+Index: src/leetcode/Leetcode2932.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/leetcode/Leetcode2932.java b/src/leetcode/Leetcode2932.java
+new file mode 100644
+--- /dev/null	(date 1713468226411)
++++ b/src/leetcode/Leetcode2932.java	(date 1713468226411)
+@@ -0,0 +1,29 @@
++package leetcode;
++import java.util.Scanner;
++public class Leetcode2932 {
++    public static void main(String[] args) {
++        Scanner s = new Scanner(System.in);
++        int size = s.nextInt();
++        int arr[] = new int[size];
++        for (int i = 0; i < size; i++) {
++            arr[i] = s.nextInt();
++        }
++        System.out.println(maximumStrongPairXor(arr));
++    }
++
++    public static  int maximumStrongPairXor(int[] nums) {
++        int size = nums.length;
++        int max = Integer.MIN_VALUE;
++        for (int i = 0; i < size; i++) {
++            for (int j = i; j < size; j++) {
++                if((Math.abs(nums[i] - nums[j])) <= (Math.min(nums[i], nums[j]))) {
++                    if ((nums[i] ^ nums[j]) >= max) {
++                        max = nums[i] ^ nums[j];
++                    }
++                }
++            }
++
++        }
++        return max;
++    }
++}
+Index: src/slidingwindow/Leetcode2799.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/slidingwindow/Leetcode2799.java b/src/slidingwindow/Leetcode2799.java
+new file mode 100644
+--- /dev/null	(date 1713467355512)
++++ b/src/slidingwindow/Leetcode2799.java	(date 1713467355512)
+@@ -0,0 +1,11 @@
++package slidingwindow;
++import java.util.Scanner;
++public class Leetcode2799 {
++    public static void main(String[] args) {
++        Scanner s= new Scanner(System.in);
++        int size = s.nextInt();
++        int arr[] = new int[size];
++    }
++
++
++}
+Index: src/hashmap/Code1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/hashmap/Code1.java b/src/hashmap/Code1.java
+new file mode 100644
+--- /dev/null	(date 1713639109572)
++++ b/src/hashmap/Code1.java	(date 1713639109572)
+@@ -0,0 +1,39 @@
++package hashmap;
++
++import java.util.HashMap;
++import java.util.HashSet;
++import java.util.TreeMap;
++
++public class Code1 {
++    public static void main(String[] args) {
++        HashMap<String, Integer> map = new HashMap<>();
++        map.put("sharad",25);
++        map.put("rahul",36);
++        map.put("zoro",8);
++        System.out.println(map);
++        System.out.println(map.entrySet());
++        System.out.println(map.getOrDefault("s",23));
++//        if(map.containsKey("sharad")){
++//            System.out.println(1);
++//        }
++        int arr[] = {1, 2, 3, 4, 5, 1, 2, 3};
++        HashSet<Integer>set = new HashSet<>();
++        for(int i=0;i<arr.length;i++){
++            set.add(arr[i]);
++        }
++        System.out.println(set);
++        TreeMap<String,Integer> map2 =new TreeMap<>();
++                map2.put("a",1);
++                map2.put("b ",2);
++                map2.put("c",3);
++                map2.put("d",4);
++                map2.put("e",5);
++        System.out.println(map2.descendingKeySet());
++//        for(int i=0;i<arr.length;i++){
++//            if(!set.contains(arr[i])){
++//                System.out.println(1);
++//            }
++//        }
++//        System.out.println(set);
++    }
++}
+Index: src/hashmap/ques2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/hashmap/ques2.java b/src/hashmap/ques2.java
+new file mode 100644
+--- /dev/null	(date 1713671689332)
++++ b/src/hashmap/ques2.java	(date 1713671689332)
+@@ -0,0 +1,41 @@
++package hashmap;
++
++import java.util.HashSet;
++import java.util.List;
++
++public class ques2 {
++    public static void main(String[] args) {
++        String s = "abc";
++        System.out.println(numberOfSpecialChars(s));
++
++    }
++
++    public static int numberOfSpecialChars(String word) {
++        HashSet<Character> set = new HashSet<>();
++        for (int i = 0; i < word.length(); i++) {
++            if (word.charAt(i) >=65 && word.charAt(i) <=90 ) {
++                set.add(word.charAt(i));
++            }
++        }
++        System.out.println(set);
++        HashSet<Character> set2 = new HashSet<>();
++        for (int i = 0; i < word.length(); i++) {
++            if (word.charAt(i) >= 97 && word.charAt(i) <= 122) {
++                set2.add(word.charAt(i));
++            }
++        }
++        System.out.println(set2);
++
++
++        int count = 0;
++        for (char c : set2) {
++            if (set.contains(Character.toUpperCase(c))) {
++                count++;
++            }
++        }
++        return count;
++
++        }
++
++    }
++
+Index: src/leetcode/Leetcode1991.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/leetcode/Leetcode1991.java b/src/leetcode/Leetcode1991.java
+new file mode 100644
+--- /dev/null	(date 1713644369718)
++++ b/src/leetcode/Leetcode1991.java	(date 1713644369718)
+@@ -0,0 +1,35 @@
++package leetcode;
++import java.util.Arrays;
++import java.util.Scanner;
++public class Leetcode1991 {
++    public static void main(String[] args) {
++        Scanner s = new Scanner(System.in);
++        int size = s.nextInt();
++        int[] arr = new int[size];
++        for (int i = 0; i <size ; i++) {
++            arr[i] = s.nextInt();
++        }
++       int index = findMiddleIndex(arr);
++        System.out.println(index);
++
++    }
++    public static int findMiddleIndex(int[] nums) {
++        int size = nums.length;
++int []prefix = new int[size];
++int []suffix = new int[size];
++prefix[0] = nums[0];
++for(int i=1;i<size;i++){
++    prefix[i] =  prefix[i-1]+nums[i];
++}
++suffix[size-1] = nums[size-1];
++for(int j=size-2;j>=0;j--){
++    suffix[j] = suffix[j+1]+nums[j];
++}
++for(int i=0;i<size;i++){
++    if(prefix[i] == suffix[i]){
++        return i;
++    }
++}
++return -1;
++    }
++}
+Index: src/hashmap/HashmapFinal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/hashmap/HashmapFinal.java b/src/hashmap/HashmapFinal.java
+new file mode 100644
+--- /dev/null	(date 1713728774702)
++++ b/src/hashmap/HashmapFinal.java	(date 1713728774702)
+@@ -0,0 +1,111 @@
++package hashmap;
++import java.util.*;
++public class HashmapFinal<K,V> {
++    static class Main{
++        public static void main(String[] args) {
++            HashmapFinal<String,String> map  = new HashmapFinal<>();
++            map.put("mango","king of fruits");
++            map.put("apple","red fruit");
++            map.put("litchy","cute");
++            System.out.println(map);// when we print a object directly it willfirst search for tostring method because of heirarachy it will first go and  look override
++        }
++    }
++    ArrayList<LinkedList<Entity>> list;
++    private int size= 0;
++    private float lf = 0.5f;
++    public HashmapFinal(){
++        list = new ArrayList<>();
++        for (int i = 0; i < 10; i++) {
++            list.add(new LinkedList<>());
++        }
++    }
++    public void put(K key, V value){
++        int hash = Math.abs(key.hashCode()%list.size());
++            LinkedList<Entity> entities = list.get(hash);
++            for(Entity entity: entities){
++                if(entity.key.equals(key)){
++                    entity.value =  value;
++                    return;
++                }
++            }
++            if((float)size/list.size()>lf){
++                reHash();
++            }
++            entities.add(new Entity ( key,  value));
++            size++;
++        }
++        private void reHash(){
++            System.out.println("we are now rehashing");
++            ArrayList<LinkedList<Entity>> old = list;
++            list = new ArrayList<>();
++
++          size=0;
++        for(int i = 0; i<old.size()* 2; i++){
++            list.add(new LinkedList<>());
++        }
++            for (LinkedList<Entity> entries : old) {
++                for(Entity entry : entries){
++                    put((K) entry.key, (V) entry.value);
++                }
++            }
++
++    }
++    public V get(K key){
++        int hash = Math.abs(key.hashCode()%list.size());
++        LinkedList<Entity> entities = list.get(hash);
++        for(Entity entity: entities){
++            if(entity.key.equals(key)){
++                return (V) entity.value;
++            }
++        }
++        return null;
++    }
++public void remove(K key){
++    int hash = Math.abs(key.hashCode()%list.size());
++    LinkedList<Entity> entities = list.get(hash);
++    Entity target  = null;
++    for(Entity entity: entities){
++        if(entity.key.equals(key)){
++            target = entity;
++            break;
++        }
++    }
++    entities.remove(target);
++    size--;
++}
++public boolean containskey(K key){
++    return get(key)!=null;
++    }
++    @Override
++public String toString(){
++        StringBuilder builder = new StringBuilder();
++        builder.append("{");
++        for(LinkedList<Entity> entities : list){
++            for(Entity entity : entities){
++                builder.append(entity.key);
++                builder.append(" = ");
++                builder.append(entity.value);
++                builder.append(" , ");
++            }
++        }
++        builder.append("}");
++        String ans  = String.valueOf(builder);
++        return ans;
++    }
++   private  class Entity{
++        K key;
++         V value;
++        public Entity(K key, V value){
++            this.key = key;
++            this.value =  value;
++        }
++    }
++
++}
++
++
++
++
++
++
++
+Index: src/hashmap/Implementation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/hashmap/Implementation.java b/src/hashmap/Implementation.java
+new file mode 100644
+--- /dev/null	(date 1713721081534)
++++ b/src/hashmap/Implementation.java	(date 1713721081534)
+@@ -0,0 +1,45 @@
++package hashmap;
++public class Implementation {
++    public static class Mapusinghash{
++        private Entity[] entities;
++        public Mapusinghash(){
++            entities =  new Entity[100];
++        }
++        public void put(String key,String value){
++            int hash = Math.abs(key.hashCode()% entities.length);
++            entities[hash] = new Entity(key,value);
++
++}
++public String get(String key){
++    int hash = Math.abs(key.hashCode()% entities.length);
++    if(entities[hash]!=null && entities[hash].key.equals(key)){
++        return entities[hash].value;
++    }
++    return null;
++}
++public void remove(String key){
++    int hash = Math.abs(key.hashCode()% entities.length);
++    if(entities[hash]!=null && entities[hash].key.equals(key)){
++        entities[hash] = null;
++    }
++}
++
++        private class Entity{
++            String key;
++            String value;
++            public Entity(String key,String value){
++                this.key = key;
++                this.value = value;
++            }
++        }
++        }
++    }
++class Main{
++    public static void main(String[] args) {
++        Implementation.Mapusinghash map = new Implementation.Mapusinghash();
++map.put("mango","king of fruits");
++map.put("apple","red fruit");
++map.put("litchy","cute");
++        System.out.println(map.get("litchy"));
++    }
++}
+Index: src/slidingwindow/MaximumSumSubarrayofsizeK.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/slidingwindow/MaximumSumSubarrayofsizeK.java b/src/slidingwindow/MaximumSumSubarrayofsizeK.java
+new file mode 100644
+--- /dev/null	(date 1713309271103)
++++ b/src/slidingwindow/MaximumSumSubarrayofsizeK.java	(date 1713309271103)
+@@ -0,0 +1,59 @@
++package slidingwindow;
++
++import java.util.*;
++
++public class MaximumSumSubarrayofsizeK {
++    public static void main(String[] args) {
++        Scanner s = new Scanner(System.in);
++        int size = s.nextInt();
++        int[] arr = new int[size];
++        for (int i = 0; i < arr.length; i++) {
++            arr[i] = s.nextInt();
++
++        }
++       
++        System.out.println(maximum(arr,3));
++    }
++      public static int maximum(int[]arr,int k){
++          int i = 0;
++          int j = 0;
++          int sum = 0;
++          int max = 0;
++         int[] newarr = removeDuplicates(arr);
++          while(j<newarr.length){
++              sum+=newarr[j];
++              if(j-i+1<k){
++                  j++;
++              }
++            else if(j-i+1==k){
++                max = Math.max(sum,max);
++                sum = sum-newarr[i];
++                i++;
++                j++;
++              }
++          }
++          return max;
++        }
++
++    public static int[] removeDuplicates(int[] arr) {
++        Set<Integer> seen = new HashSet<>();
++        List<Integer> result = new ArrayList<>();
++
++        for (int num : arr) {
++            if (!seen.contains(num)) {
++                result.add(num);
++                seen.add(num);
++            }
++        }
++
++        // Convert ArrayList to int array
++        int[] uniqueArr = new int[result.size()];
++        for (int i = 0; i < result.size(); i++) {
++            uniqueArr[i] = result.get(i);
++        }
++        System.out.println(Arrays.toString(uniqueArr));
++
++        return uniqueArr;
++    }
++}
++
+Index: src/leetcode/leetcode1561.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/leetcode/leetcode1561.java b/src/leetcode/leetcode1561.java
+new file mode 100644
+--- /dev/null	(date 1713121113048)
++++ b/src/leetcode/leetcode1561.java	(date 1713121113048)
+@@ -0,0 +1,36 @@
++package leetcode;
++import java.util.Scanner;
++import java.util.Arrays;
++public class leetcode1561 {
++    public static void main(String[] args) {
++        Scanner s = new Scanner(System.in);
++        int size = s.nextInt();
++        int arr[] = new int[size];
++        for (int i = 0; i < arr.length; i++) {
++            arr[i] = s.nextInt();
++        }
++        System.out.println(maxCoins(arr));
++    }
++
++       public static  int maxCoins(int[] piles) {
++        Arrays.sort(piles);
++            int size = piles.length;
++            int sum = 0;
++            int n = size/3;
++            if(n%2==0){
++                for(int i =n;i<size;i++){
++                    if(i%2==0){
++                        sum+=piles[i];
++                    }
++                }
++            }
++            else{
++                for(int i=n;i<size;i++){
++                    if(i%2!=0){
++                        sum+=piles[i];
++                    }
++                }
++            }
++            return sum;
++    }
++}
+Index: src/leetcode/Leetcode1619.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/leetcode/Leetcode1619.java b/src/leetcode/Leetcode1619.java
+new file mode 100644
+--- /dev/null	(date 1713186993906)
++++ b/src/leetcode/Leetcode1619.java	(date 1713186993906)
+@@ -0,0 +1,28 @@
++package leetcode;
++import java.util.Scanner;
++import java.util.Arrays;
++public class Leetcode1619 {
++    public static void main(String[] args) {
++Scanner s = new Scanner(System.in);
++int size = s.nextInt();
++int []arr = new int[size];
++for(int i =0;i<arr.length;i++){
++    arr[i] = s.nextInt();
++}
++double ans = trimMean(arr);
++        System.out.println(ans);
++    }
++    public static double trimMean(int[] arr) {
++   int size =arr.length;
++   Arrays.sort(arr);
++   int start = (int)(size*0.05);
++   double sum = 0;
++    double mean = 0;
++   for(int i=start;i<size-start;i++){
++       sum+=arr[i];
++   }
++   mean = sum /(size-(start+start));
++   return mean;
++
++    }
++}
+Index: src/slidingwindow/FirstNegativeNumber.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/slidingwindow/FirstNegativeNumber.java b/src/slidingwindow/FirstNegativeNumber.java
+new file mode 100644
+--- /dev/null	(date 1713212457040)
++++ b/src/slidingwindow/FirstNegativeNumber.java	(date 1713212457040)
+@@ -0,0 +1,49 @@
++package slidingwindow;
++import java.util.ArrayList;
++import java.util.Scanner;
++import java.util.Vector;
++
++public class FirstNegativeNumber {
++    public static void main(String[] args) {
++Scanner s = new Scanner(System.in);
++int size = s.nextInt();
++int arr[] = new int[size];
++for(int i =0;i<size;i++){
++    arr[i] = s.nextInt();
++}
++Vector<Integer> ans = firstnegative(arr,3);
++//for(int i=0;i<ans.size();i++){
++//    System.out.println(ans.get(i));
++//}
++        System.out.println(ans);
++    }
++    public static Vector<Integer> firstnegative(int[]arr,int k){
++        ArrayList<Integer> list1 = new ArrayList<>();
++        Vector<Integer> vector1 = new Vector<>();
++        int size = arr.length;
++        int i =0;
++        int j = 0;
++        while(j<size){
++            if(arr[j]<0){
++                list1.add(arr[j]);
++            }
++             if(j-i+1<k){
++                j++;
++            }
++            else if(j-i+1==k){
++                if(list1.isEmpty()){
++                    vector1.add(0);
++                }
++                else{
++                    vector1.add(list1.getFirst());
++                    if(list1.getFirst()==arr[i]){
++                        list1.removeFirst();
++                    }
++                }
++                i++;
++                j++;
++             }
++        }
++        return vector1;
++    }
++}
+Index: src/leetcode/Leetcode2657.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/leetcode/Leetcode2657.java b/src/leetcode/Leetcode2657.java
+new file mode 100644
+--- /dev/null	(date 1713985212057)
++++ b/src/leetcode/Leetcode2657.java	(date 1713985212057)
+@@ -0,0 +1,35 @@
++package leetcode;
++
++import java.util.Iterator;
++
++public class Leetcode2657 {
++    public static void main(String[] args) {
++int[] arr1 = {2,3,1};
++int [] arr2  = {3,1,2};
++int ans [] = findThePrefixCommonArray(arr1,arr2);
++for(int e:ans){
++    System.out.print(e+" ");
++}
++    }
++    public static int[] findThePrefixCommonArray(int[] A, int[] B) {
++           int n = A.length;
++           int n2= B.length;
++
++           int count  = 0;
++           int arr[] = new int[n];
++           for(int i=0;i<n;i++){
++               for(int j=0;j<=i;j++) {
++                   for (int k = 0; k < i; k++) {
++                       if (A[j] == A[k]) {
++                           count++;
++                       }
++                   }
++               }
++               {
++                   arr[i] = count;
++               }
++
++           }
++           return arr;
++    }
++}
+Index: src/collectionsframework/Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/collectionsframework/Test.java b/src/collectionsframework/Test.java
+new file mode 100644
+--- /dev/null	(date 1713995738324)
++++ b/src/collectionsframework/Test.java	(date 1713995738324)
+@@ -0,0 +1,74 @@
++package collectionsframework;
++
++import javax.swing.text.html.HTMLDocument;
++import java.util.*;
++
++public class Test {
++    public static void main(String[] args) {
++//        OurGenericList<Integer> list = new OurGenericList<>();
++//        list.add(1);
++//        list.add(2);
++//        list.add(3);
++//not directly use for loop and if we make public to array
++        // then we can change from outside the data of array that is very bad practice
++        // if we want to change the array to array list then client code will also fail for array as array list is get method
++        // so we can change our code but that should not effect our client so we need something to iterate so iterable come in that
++//        Iterator<Integer> iterator = list.iterator();
++//        while(iterator.hasNext()){
++//            System.out.print(STR."\{iterator.next()} ");
++//        }
++
++//        for(int x:list){
++//            System.out.print(STR."\{x} ");
++//        }
++//we directly can use for each loop for this without iterable to traverse a particular class collection or instance
++        // and for iterator we need to implement all methods of interface we dont need to all remember this depth
++        // because all classes in collection framework do these things internally
++        // so basically use for each loop to traverse the collections;
++        List<Integer> alist = new ArrayList<>();
++        alist.add(1);
++        alist.add(2);
++        alist.add(3);
++//        System.out.println( "elements that got replaced = " + alist.set(1,5));
++//        List<Integer> alist2 = new ArrayList<>(alist);
++        List<Integer> alist2 = new ArrayList<>();
++        alist2.add(4);
++        alist2.add(5);
++        alist2.add(6);
++        alist2.addAll(alist);
++        System.out.println(alist2);
++        System.out.println(alist.indexOf(2));
++        System.out.println(alist.lastIndexOf(2));
++        List<Integer> alist3 = alist2.subList(1,4);
++        alist3.set(0,100);
++        System.out.println(alist2);
++        System.out.println(alist3);
++//        System.out.println(alist2);
++//      System.out.println(alist);
++//        for(int e:alist){
++//            System.out.println(e);
++//        }
++        List<Integer> lk = new LinkedList<>();
++        lk.add(1);
++        lk.add(2);
++        lk.add(3);
++       ListIterator<Integer> iterator =  lk.listIterator();
++        System.out.println(iterator.next());
++        System.out.println(iterator.next());
++        System.out.println(iterator.previous());
++        //next return curr and then moves to next;
++        //prev moves back one and then return
++        //next - return items[index++];
++        //prev - return items[--index];
++//---------------------------------------------//
++        //to copy arraylist to array for leetcode return
++      Integer[]arr =   alist.toArray(new Integer[0]);
++        for(int x:arr){
++            System.out.print(x+" ");
++        }
++        //new array getting created same of the alist size;
++        //we can also pass alist size as well;
++        // arr datatype should be wrapper class non primitive
++        //in for each automatically compiler does unboxing non prim to prim;
++    }
++}
+Index: src/slidingwindow/Leetcode1343.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/slidingwindow/Leetcode1343.java b/src/slidingwindow/Leetcode1343.java
+new file mode 100644
+--- /dev/null	(date 1713365840124)
++++ b/src/slidingwindow/Leetcode1343.java	(date 1713365840124)
+@@ -0,0 +1,37 @@
++package slidingwindow;
++import java.util.Scanner;
++public class Leetcode1343 {
++    public static void main(String[] args) {
++        Scanner s = new Scanner(System.in);
++        int size = s.nextInt();
++        int k = s.nextInt();
++        int threshold = s.nextInt();
++        int[] arr = new int[size];
++        for(int i =0;i<size;i++){
++            arr[i] = s.nextInt();
++        }
++        System.out.println(numOfSubarrays(arr,k,threshold));
++    }
++    public static int numOfSubarrays(int[] arr, int k, int threshold) {
++        int i = 0;
++        int j =0;
++        int size = arr.length;
++        int count = 0;
++        int sum = 0;
++        while(j<size){
++            sum+=arr[j];
++            if(j-i+1<k){
++                j++;
++            }
++            else if(j-i+1==k){
++                if((sum/k>=threshold)){
++                    count++;
++                }
++                sum-=arr[i];
++                i++;
++                j++;
++            }
++        }
++        return count;
++    }
++}
+Index: src/collectionsframework/OurGenericList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/collectionsframework/OurGenericList.java b/src/collectionsframework/OurGenericList.java
+new file mode 100644
+--- /dev/null	(date 1713983770376)
++++ b/src/collectionsframework/OurGenericList.java	(date 1713983770376)
+@@ -0,0 +1,38 @@
++package collectionsframework;
++
++import java.util.Iterator;
++
++public class OurGenericList <T> implements Iterable<T> {
++private T[] items;
++private int size;
++public OurGenericList(){
++    items = (T[]) new Object[100];
++}
++public void add(T item){
++    items[size++] = item;
++}
++public T getItemAtIndex(int index){
++    return items[index];
++}
++    @Override
++    public Iterator<T> iterator() {
++        return new OurGenericListIterator(this) ;
++    }
++    private class OurGenericListIterator implements Iterator<T>{
++private OurGenericList<T> list;
++private int index = 0;
++public OurGenericListIterator(OurGenericList<T> list){
++    this.list = list;
++}
++        @Override
++        public boolean hasNext() {
++           return index<size;
++        }
++
++        @Override
++        public T next() {
++           return list.items[index++];
++        }
++    }
++    //private because internal implementation for this program of iterator so client only should get iterator not how we are implementing this
++}

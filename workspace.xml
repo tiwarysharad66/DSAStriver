@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="190d9229-0986-4057-b5a2-a411db699dc4" name="Changes" comment="Java_CodesStarter" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tiwarysharad66&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tiwarysharad66/Java_Codes.git&quot;,
+    &quot;accountId&quot;: &quot;2ad70000-0e75-4b82-a449-16668a131008&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2aOaLQCMw9ijkMwQX43JAbPL4fL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A282.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Asteroid_Collision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Atoi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySubarrayWithSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binarysearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ceil_UpperBound.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Code1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces148A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces318A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces411A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces427A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces431A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces432A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces556A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Codeforces_200B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Combination_Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DailyTemp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacciformula.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Finally_Block.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNegativeInEveryWindowSizeK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNegativeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.First_Last_Element_SortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.First_Last_Occurence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Floor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Formation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FruitIntoBasket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Functional_Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics_Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hackerank.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashmapFinal$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfiniteRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Infix_To_Postfix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intersection_of_twoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsmorphicString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterativeCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IteratorList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaSet_Interface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L217Containsduplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestOddNumberInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Largest_RectangleInHistogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1248.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1343.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1492.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1614.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1619.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1646.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode169.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1768.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1991.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode20.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2000.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2011.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode202HappyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2073.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2108.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2161.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode219.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode238.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2396.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2404.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2441.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2485.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode25.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode26.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2657.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2932.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2942.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode3028.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode344.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode41.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode438.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode451.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode561.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode593.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode628.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode786.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode88.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode905.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode930.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode969.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode_1346.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode_2154.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode_27_Remove_Element.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode_34.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode_560.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode_747.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListBasics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestConsectiveSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindromicSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestRepeatingCharacterReplacement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstringWithKdistinctCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstringWithoutRepeatingCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Majority_Element2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxOfAllSubarraysOfSizeK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxPointsYouCanObtainFromCards.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxSubarraysum_Kadanealgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSumOfSubarraySizeK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Max_Subarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSumSubarrayofsizeK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Min_Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NGT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestingDepth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextGreater_Element01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Nto1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Nto1Backtrak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfConsecutive1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfNiceSubarrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfSubstringContainingAllThreeCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfSubstringContainingAllThreeCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Number_Of_Nges_toRight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Number_ofSubsequencesWithSumK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Number_of_distinct_Subsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumbersExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumbersExample_Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OccurencesOfAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Oopsbasics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome_Partitioning.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindromic_Substring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pascals_Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassingNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pcph_ques.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Postfix_infix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrefixSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prefix_infix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prev_Smaller.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Print1TON.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Print1TONBackTrack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Print1toNBacktrack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintAllSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintNTO1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintName5Times.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintName5times.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Print_1toN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ques.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ques1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ques2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue_Stack_Implementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queueimplementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rbs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursiveCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remove_Outermost_Paranthesis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse2Darray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse_digits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToIntegers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateImg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotatedSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchInsertPosition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Search_Rotated_Sortedarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetMatrixZeroes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Setmatrix0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sliding_window_maximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort0and1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort_Zeroes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpiralMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpiralMatrixPrint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.String_Compression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.String_Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsBasic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraysWithKdifferentIntegers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsequences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfBeautyOfAllSubstrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfRectangleBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfRectangleSPrefixSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum_Equal_Suffix_Prefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum_OfRectangle_BestSolutionPrefixColAndRow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum_Of_Digits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum_Of_Subarrays_Minimum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum_from_LtoR.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sumof22dArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumofSubarrayMinimum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TransposeMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Trapping_Water.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Valid_Parantehsis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeirdAlgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wrapper_Classes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrayInitialise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrayList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.basics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.count_Occurence_Of_Element.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countzeroes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.delete_all_occurence_from_linked_list.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.evenandodd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.explicit_throw.executor&quot;: &quot;Run&quot;,
+    &quot;Application.factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findevenorodd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.first_last_occurence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.firstques.executor&quot;: &quot;Run&quot;,
+    &quot;Application.floor_CeilSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.floorofsortedarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.floydstriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.generateSpiralMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.intersection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inverted_half_pyramid_with_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.invertedrectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.largest_in_array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode136.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode1561.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode169_optimise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode2149RearrangeArrayBysign.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode485.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode55.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode713.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode_majorityelement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linearsearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lowerbound.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.map.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxsubarraysum_2ndapproach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxsubarraysum_bruteforce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxsumsubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multiply2matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ngt2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ngtdemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nto1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pairsprint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pattern1_hollow_rectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.postfixtoprefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.powerof2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.prefix_to_postfix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printsubarrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ques2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ques3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.recursionbasics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.removeKDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.removeduplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reverse_array_optimise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reversearrfromltor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rotateKsubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rotatearray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringbuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.subarraysum_divisiblebyk.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sum_of_subarray_Minimum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumofdigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.swapwithsum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.target.executor&quot;: &quot;Run&quot;,
+    &quot;Application.thirdques.executor&quot;: &quot;Run&quot;,
+    &quot;Application.toggleStringBuilderUsingAscii.executor&quot;: &quot;Run&quot;,
+    &quot;Application.transposeinplace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.trappingrainwater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.uniqueelement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.upperbound.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Codechef.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.MyQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.ObjectCreation.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Scratch (1).executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;C#&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Linked_List_InterviewQues" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Arrays" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MaxPointsYouCanObtainFromCards">
+    <configuration name="MaxPointsYouCanObtainFromCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwndow.MaxPointsYouCanObtainFromCards" />
+      <module name="CodeDSAJava 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwndow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionBack.Nto1" />
+      <module name="CodeDSAJava 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionBack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Print1TON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionFinal.Print1TON" />
+      <module name="CodeDSAJava 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionFinal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Print1toNBacktrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionFinal.Print1toNBacktrack" />
+      <module name="CodeDSAJava 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionFinal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionBack.Subsets" />
+      <module name="CodeDSAJava 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionBack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Print1toNBacktrack" />
+        <item itemvalue="Application.Print1TON" />
+        <item itemvalue="Application.MaxPointsYouCanObtainFromCards" />
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.Nto1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="190d9229-0986-4057-b5a2-a411db699dc4" name="Changes" comment="" />
+      <created>1704192028262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704192028262</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1712262055780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712262055780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1712868453391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712868453391</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1713995927860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713995927860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1713996108195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713996108195</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1721812313381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721812313381</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1736795216827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736795216827</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1736882719536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736882719536</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1737125136302</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737125136302</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1737744611347</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737744611347</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1747334588512</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747334588512</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Java_CodesStarter">
+      <option name="closed" value="true" />
+      <created>1747338199297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747338199297</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java_CodesStarter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java_CodesStarter" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/Leetcode20.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/NumbersExample.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_82.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.java</url>
+          <line>6</line>
+          <properties class="Scratch" method="vowelmaker">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Fibonacci.java</url>
+          <line>6</line>
+          <properties class="Recursion.Fibonacci" method="fib">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Ques1.java</url>
+          <line>3</line>
+          <properties class="Recursion.Ques1" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_25.java</url>
+          <line>6</line>
+          <properties class="Scratch" method="numberOfSubarrays">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/NumberOfNiceSubarrays.java</url>
+          <line>7</line>
+          <properties class="slidingwndow.NumberOfNiceSubarrays" method="numberOfSubarrays">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_82.java</url>
+          <line>3</line>
+          <properties class="Scratch" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/LongestRepeatingCharacterReplacement.java</url>
+          <line>10</line>
+          <properties class="slidingwndow.LongestRepeatingCharacterReplacement" method="characterReplacement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/MinimumWindowSubstring.java</url>
+          <line>10</line>
+          <properties class="slidingwndow.MinimumWindowSubstring" method="minWindow">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/RecursionBack/Subsets.java</url>
+          <line>10</line>
+          <properties class="RecursionBack.Subsets" method="subsets">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/slidingwndow/MaxPointsYouCanObtainFromCards.java</url>
+          <line>8</line>
+          <properties class="slidingwndow.MaxPointsYouCanObtainFromCards" method="maxScore">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/alpha_batch$LinkedListBasics.ic" NAME="LinkedListBasics Coverage Results" MODIFIED="1707247111861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>linkedlist.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/alpha_batch$maxsubarraysum_bruteforce.ic" NAME="maxsubarraysum_bruteforce Coverage Results" MODIFIED="1705218728709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Arrays.*</FILTER>
+    </SUITE>
+  </component>
+</project>
